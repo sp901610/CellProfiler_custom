@@ -138,7 +138,7 @@ def unet_initialize(input_shape, automated_shape_adjustment=True):
     #    "cellprofiler",
     #    os.path.join("model", "unet-nuclei.h5")
     #)
-    weights_filename = "/root/CellProfiler_custom/CellProfiler4_AutoConvert/model/unet-nuclei.h5"
+    weights_filename = "/cell_profiler/CellProfiler_custom/CellProfiler4_AutoConvert/model/unet-nuclei.h5"
 
     if not os.path.exists(weights_filename):
         cache_directory = os.path.dirname(weights_filename)
