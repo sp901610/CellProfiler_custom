@@ -45,3 +45,6 @@ dependencies:
     - cellprofiler==4.2.5
     - pyimagej
     - cellh5
+    - keras
+    - tensorflow
+    - CellStar
