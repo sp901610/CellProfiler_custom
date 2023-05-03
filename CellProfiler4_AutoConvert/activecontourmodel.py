@@ -503,7 +503,7 @@ class ActiveContourModel(ImageSegmentation):
             workspace.display_data.dimensions = x.dimensions
 
 
-epsilon = numpy.finfo(numpy.float).eps
+epsilon = numpy.finfo(numpy.float64).eps
 
 
 def chan_vese(image, mask, iterations, alpha, threshold, phi_bound, cfl_factor, sdf_smoothing):
