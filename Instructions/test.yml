@@ -1,0 +1,9 @@
+name: CellProfiler
+
+dependencies:
+- python=3.8
+- pip
+- h5py
+- mysqlclient
+- imagecodecs
+- pandas
