@@ -1,11 +1,5 @@
 name: CellProfiler
 
-channels:
-- conda-forge
-- anaconda
-- bioconda
-- defaults
-
 dependencies:
 - python=3.8
 - pip
