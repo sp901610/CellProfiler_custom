@@ -1,10 +1,10 @@
 name: CellProfiler
 
-channels:
-- conda-forge
-- anaconda
-- bioconda
-- defaults
+#channels:
+#- conda-forge
+#- anaconda
+#- bioconda
+#- defaults
 
 dependencies:
 - python=3.8
@@ -41,7 +41,7 @@ dependencies:
     - scipy>=1.4.1
     - six
     - tifffile<2022.4.22
-    - wxPython==4.1.0
+    # - wxPython==4.1.0
     - cellprofiler==4.2.5
     - pyimagej
     - cellh5
